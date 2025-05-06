@@ -38,15 +38,15 @@ Drowsiness behind the wheel is one of the leading causes of road accidents. This
 ```
 Driver-Drowsiness-Detection/
 │
-├── Data Preparation_part-1.ipynb      # Image preprocessing and dataset setup
-├── Model Training_part-2.ipynb        # Training InceptionV3 model on eye state data
-├── Main_part-3.ipynb                  # Real-time drowsiness detection using webcam
-├── app.py                             # App interface or wrapper (optional deployment entry)
-├── models/
-│   └── drowsiness_model.h5            # Trained eye state detection model (output of part-2)
-├── haarcascades/
-│   └── haarcascade_eye.xml            # Used to detect eyes in webcam frames
-├── alarm.wav                          # Sound file for alert
+├── Data Preparation_part-1.ipynb        # Image preprocessing and dataset setup
+├── Model Training_part-2.ipynb          # Training InceptionV3 model on eye state data
+├── Main_part-3.ipynb                    # Real-time drowsiness detection using webcam
+├── app.py                               # App interface or wrapper (optional deployment entry)
+├── model.h5                             # Trained eye state detection model (output of part-2)
+├── alarm.wav                            # Sound file for drowsiness alert
+├── MRL DataSet Annotations of input images.txt  # Annotations or metadata related to image dataset
+├── Mini Project Driver Drowsiness.pptx  # Project presentation (overview and demo slides)
+├── README.md                            # Project description and usage guide
 ```
 
 ---
